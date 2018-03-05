@@ -1,0 +1,34 @@
+<?php 
+	if(!isset($baomat)){exit();}
+?>
+<?php
+	
+	if(isset($_GET['xoamenu']))
+	{
+		include("modules/menu/xoamenu.php");
+	}
+	if(isset($_GET['chitietxoa']))
+	{
+		include("modules/hoadon/chitietxoa.php");
+	}
+	if(isset($_GET['xoasanpham']))
+	{
+		include("modules/sanpham/xoasanpham.php");
+	}
+	if(isset($_GET['xoahoadon']))
+	{
+		include("modules/hoadon/xoahoadon.php");
+	}
+	if(isset($_GET['xoahoadontrangchitiet']))
+	{
+		include("modules/hoadon/xoahoadontrangchitiet.php");
+	}
+	if(isset($_GET['action']))
+	{
+		if($_GET['action']=="thoat")
+		{
+			include("modules/quantri/thoat.php");
+			header("location:../admin/index.php");
+		}
+	}
+?>

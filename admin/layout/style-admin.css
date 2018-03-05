@@ -1,0 +1,432 @@
+/* header */
+.header-container {
+  background-color: #f12a43;
+  clear: both;}
+.full-header {
+    position: relative;
+    top: 0 !important;
+}
+.ttheader {
+    float: left;
+    width: 100%;
+}
+.header-container #header_logo {
+    float: left;
+    margin: 25px 0;
+    text-align: center;
+    max-width: 171px;
+}
+.header-container #header_logo > a {
+    display: table;
+    float: none;
+    margin: 0 auto;
+}
+.header-container #header_logo > a img {
+  width: 100%;
+}
+#ttcmsheaderservices {
+    float: right;
+    margin: 15px 0px 14px 0;
+    padding: 10px;
+}
+#ttcmsheaderservices .ttcmsheaderservice {
+    text-align: right;
+    padding: 0;
+}
+#ttcmsheaderservices .ttcmsheaderservice .ttsupport .ttcontent_inner .service .ttsupport_img {
+    background: transparent url(../../img/sprite.png) repeat scroll -35px -426px;
+    float: right;
+    height: 42px;
+    margin: 0 5px 0 0;
+    width: 36px;
+}
+#ttcmsheaderservices .ttcmsheaderservice .ttcontent_inner .service .service-content .service-title {
+    font: 400 14px/20px 'Roboto', sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+#ttcmsheaderservices .ttcmsheaderservice .ttcontent_inner .service .service-content .service-desc {
+    font: 400 14px/20px 'Roboto', sans-serif;
+    color: white;
+}
+#search_block_top {
+    float: right;
+    margin: 26px auto;
+}
+#search_block_top .search_query_top {
+    float: left;
+    min-width: 370px;
+    border: medium none;
+    border-radius: 4px 0 0 4px;
+    color: #888888;
+    padding: 3px 12px;
+    height: 38px;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#search_block_top .button-search {
+    padding: 9px 43px;
+    line-height: 18px;
+    background-color: #111111;
+    border-color: #111111;
+    color: #ffffff;
+    border-radius: 0 4px 4px 0;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+/*menu*/
+a:hover, a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+.header-container .nav {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    position: relative;
+}
+#ttcmsheader {
+    float: left;
+    padding: 0;
+}
+#ttcmsheader .ttheader-service {
+    color: white;
+    line-height: 20px;
+    padding: 10px 0;
+    float: left;
+}
+#ttcmsheader .ttheader-service:before {
+    background: transparent url('../../img/sprite.png') repeat scroll -38px -487px;
+    content: "";
+    float: left;
+    height: 20px;
+    width: 30px;
+}
+.ttpermanent-link {
+    float: right;
+    position: relative;
+    text-align: center;
+}
+.ttpermanent-link {
+    float: right;
+    position: relative;
+    text-align: center;
+}
+.ttpermanent-link ul#header_links {
+    margin: 0;
+    line-height: 26px;
+    padding-left: 0;
+}
+.ttpermanent-link ul#header_links li {
+    display: inline-block;
+    float: none;
+    padding: 7px 10px;
+}
+.ttpermanent-link ul#header_links li a {
+    color: white;
+    display: block;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.dropds {
+  display: none;
+  position: absolute;
+}
+.dropds li {
+ margin-left: 0 !important;
+}
+
+#menu.fixed-menu{
+  width: 100%;
+  height: 35px;
+  background-color: #0082bb;
+  display: block;
+  position: fixed; 
+  top: 0; 
+}
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer{
+  height: 200px;
+  width: 100% ;
+  background-color: #fafafa;
+    color: #878787;
+}
+.footer-content1{
+  height: 100%;
+  margin-left:20px;
+  padding-top:10px;
+  float: left;
+}
+.footer-content1 p{
+  cursor: pointer;
+}
+.footer-content2{
+  height: 100%;
+  margin-left:20px;
+  padding-top:10px;
+  float:left;
+}
+.footer-content2 li{
+    margin-top: 15px;
+  display: block;
+  cursor: pointer;
+}
+.footer-content3{
+  height: 100%;
+  margin-left:20px;
+  padding-top:10px;
+  float:left;
+}
+.footer-content3 li{
+   margin-top: 15px;
+  cursor: pointer;
+  display: block;
+}
+.footer-content4{
+  height: 100%;
+  margin-left:20px;
+  padding-top:10px;
+  float:left;
+}
+.footer-content4 h3{
+  margin-left: 70px;
+}
+.toggle-footer {
+  padding-left: 0;
+}
+
+
+
+
+/* khung dang nhap*/
+
+.body-login{
+  background-color:rgb(234,234,234);
+  height: 800px;
+}
+.login-form{
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-radius: 5px;
+  margin:100px 0 0 400px;
+}
+.login-form h3{
+    padding-top: 10px;
+   color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: times,serif;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(40,40,48);
+}
+.login-form fieldset{
+  margin: 20px 0 20px 20px;
+}
+.login-form input{
+    width: 260px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: times,serif;
+    padding-left: 10px;
+}
+.button-login input{
+    margin: 20px 0 0 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(241,42,45);
+    border-color: rgb(241,42,45);
+}
+.button-login input:hover{
+  background-color: red;
+  border-color: red;
+  box-shadow: 8px 8px 10px silver;
+   }
+
+
+
+
+/* quản lý sản phẩm */
+.quanly  th{
+  text-align: center;
+}
+.quanly  td{
+  text-align: center;
+}
+.quanly td b{
+  color: red;
+  font-size: 20px;
+}
+.quanly td p{
+  color: black;
+  font-size: 20px;
+}
+.btn-default {
+    background-color: black;
+}
+.btn-default:hover {
+    background-color: silver;
+}
+.td-ten{
+width: 300px;
+}
+.glyphicon-cog{
+  color: black;
+}
+.quanly h1{
+  text-align: center;
+  color: silver;
+}
+.quanly legend{
+  color: rgb(241,42,45);
+}
+.btn-infor{
+  float:right;
+}
+.quanly-chon{
+  float: left;
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+}
+.quanly-chon select{
+ color: black;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 40px; 
+  width: 197px;
+}
+.quanly-chon select:hover{
+   background-color:black;
+  color: white;
+  cursor: pointer;
+
+}
+.quanly-them{
+  float: right;
+}
+.quanly-them button{
+    margin: 20px 0 0 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+    width: 197px;
+    background-color: rgb(241,42,45);
+    border-color: rgb(241,42,45);
+}
+.quanly-them button:hover{
+  background-color: red;
+  border-color: red;
+  box-shadow: 4px 4px 5px silver;
+ }
+ .phantrang {
+   text-align: center;
+ }
+ .phantrang button{
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  margin:10px 0 20px 0;
+ }
+  .phantrang button:hover{
+  background-color: rgb(241,42,45);
+  color: white;
+  border-color: rgb(241,42,45);
+ }
+
+
+
+
+
+
+
+
+
+
+/* thêm sản phẩm*/
+.form-group{
+  margin-left: 20px;
+  width: 1000px;
+  margin-top: 20px;
+}
+.form-group label{
+}
+.button-giohang {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(241,42,45);
+    border-color: rgb(241,42,45);
+}
+.button-giohang:hover{
+  background-color: red;
+  border-color: red;
+  box-shadow: 8px 8px 10px silver;
+
+}
+
+/*trang chu */
+.khung-trangchu2{
+  height: 300px;
+  margin: 100px 100px 0 100px;
+}
+.khung-trangchu2 a{
+  width: 90px;
+  height: 90px;
+  border-radius: 15px;
+  box-shadow: 3px 5px 10px gray;
+}
+.glyphicon-user, .glyphicon-plus-sign,.glyphicon-th-list,.glyphicon-home {
+  font-size:50px;
+  text-align: center;
+  margin: 8px 0 0 0px;
+}
+
+.icon-trangchu2 {
+  float: left;
+  margin-left: 42px;
+  width: 110px;
+  height: 110px;
+}
+.icon-trangchu2 label{
+ margin-top:10px;
+ width:90px;
+ text-align: center;
+ color: black;
+ font-size: 15px;
+}
